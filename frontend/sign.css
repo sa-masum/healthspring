@@ -1,0 +1,362 @@
+html{
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header {
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.1);
+    background-color: #004f5d;
+}
+
+.header .logo{
+    font-size: 2.5rem;
+    padding: 30px;
+}
+
+.fa-solid, .fa-bed-pulse{
+    color: white;
+    margin-right: 20px;
+}
+
+.navbar {
+    font-size: 1.3rem;
+    margin: 10px;
+}
+
+.navbar a {
+    padding: 10px;
+    margin-right: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#menu_btn {
+    font-size: 27px;
+    margin: 25px;
+    /*background-color: rgb(227, 224, 224);*/
+    background-color: #004f5d;
+    display: none;
+}
+/*---------------------------------------------------------------*/
+
+#signimg {
+    opacity: 0.7;
+}
+
+.s1 {
+    max-height: 2000px;
+}
+
+.main {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    width: 100%;
+    height: 605px;
+    padding-top: 70px;
+}
+
+
+.sign {
+    background-color: #009ab5;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 70%;
+    height: 85%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.top {
+    background-color: #009ab5;
+    position: relative;
+    width: 70%;
+    height: 10%;
+    margin: auto;
+    padding-top: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    top: 0;
+    left: 0;
+    background-color: #009ab5;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav2 a {
+    font-size: 170%;
+    color: white;
+    background-color: #16444c;
+    width: 50%;
+    height: 100%;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    padding: 8px;
+    position: relative;
+    text-decoration: none;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+
+
+#login {
+    opacity: 0.5;
+    border-radius: 10px 0 0 10px;
+    border-left: 2px solid white;
+    height: 45px;
+}
+#login:hover {
+    cursor: pointer;
+}
+
+#signup {
+    border-radius: 0 10px 10px 0;
+    border-right: 2px solid white;
+    height: 45px;
+}
+#signup:hover {
+    cursor: pointer;
+}
+
+#box1 {
+    width: 100%;
+    height: 86%;
+    padding-top: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: block;
+}
+
+input {
+    font-size: 1.4rem;
+    padding-left: 10px;
+}
+
+#lemail, #lpassword {
+    border-radius: 10px;
+    width: 50%;
+    height: 45px;
+    border: none;
+    margin: 30px 25% 30px 25%;
+    padding-left: 8px;
+    outline: none;
+    display: block;
+}
+#login2 {
+    width: 50%;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    background-color: #16444c;
+    color: white;
+    margin: 30px 25% 30px 25%;
+}
+
+#forgot {
+    text-align: center;
+    color: red;
+    font-size: 1rem;
+    font-weight: bold;
+}
+#forgot:hover {
+    cursor: pointer;
+}
+
+#forgotbox {
+    position: relative;
+    border: 2px solid red;
+    width: 100%;
+    height: 86%;
+    padding-top: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: none;
+}
+
+#box2 {
+    position: relative;
+    width: 100%;
+    height: 86%;
+    padding-top: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: none;
+}
+
+
+#fname, #sname {
+    display: block;
+    border-radius: 10px;
+    width: 50%;
+    height: 40px;
+    border: none;
+    margin: 15px 25% 15px 15%;
+    padding-left: 8px;
+    outline: none;
+}
+
+#bdate {
+    border-radius: 10px;
+    width: 25%;
+    height: 40px;
+    border: none;
+    margin: 10px 10% 10px 15%;
+    padding-left: 8px;
+    outline: none;
+}
+
+#gender {
+    font-size: 1.5rem;
+    height: 40px;
+}
+
+#semail, #spassword {
+    border-radius: 10px;
+    width: 50%;
+    height: 40px;
+    border: none;
+    margin: 15px 0 10px 15%;
+    padding-left: 8px;
+    display: block;
+    outline: none;
+}
+
+
+#signup2 {
+    width: 25%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #16444c;
+    color: white;
+    margin: 5px 25% 10px 15%;
+}
+
+
+
+
+.footer {
+    position: relative;
+    background-color: #004f5d;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+}
+
+#copy {
+    font-size: 1.2rem;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    border: 2px solid white;
+}
+#hs {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+
+
+@media (max-width : 1268px){
+    html{
+        font-size: 90%;
+    }
+}
+
+@media (max-width : 1183px){
+    .header .logo{
+        font-size: 2.2rem;
+    }
+    html{
+        font-size: 85%;
+    }
+}
+
+@media (max-width : 1113px){
+    html{
+        font-size: 82%;
+    }
+}
+
+@media (max-width : 1100px){
+    html{
+        font-size: 80%;
+    }
+}
+
+@media (max-width : 768px){
+    html{
+        font-size: 62%;
+    }
+
+    #menu_btn {
+        display: initial;
+        font-size: 21px;
+    }
+
+    .header .navbar {
+        position: absolute;
+        top: 95%;
+        right: 5rem;
+        border-radius: .5rem;
+        background-color: #004f5d;
+        box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.1);
+        width: 15rem;
+        padding: 0;
+        border: 2px solid rgb(2, 117, 101);
+        transform: scale(0);
+        opacity: 0;
+        transform-origin: top right;
+        transition: none;
+        z-index: 1000;
+    }
+
+    .header .navbar.active {
+        transform: scale(1);
+        opacity: 1;
+        transition: .2s ease-out;
+    }
+
+    .header .navbar a {
+        display: block;
+        font-size: 2rem;
+        color: white;
+        margin: 0;
+    }
+
+    .header .navbar a:hover {
+        background-color: rgb(197, 194, 194);
+    }
+
+    .fa-solid, .fa-bed-pulse{
+        margin-right: 14px;
+    }
+}
