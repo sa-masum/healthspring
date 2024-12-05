@@ -207,19 +207,38 @@ input {
 
 
 #fname, #sname {
-    display: block;
     border-radius: 10px;
     width: 50%;
     height: 40px;
     border: none;
+    /*margin: 15px 25% 15px 15%;*/
+    padding-left: 8px;
+    outline: none;
+}
+#fname{
+    display: block;
     margin: 15px 25% 15px 15%;
+}
+#sname {
+    width: 20%;
+    display: inline-block;
+    margin: 15px 9% 15px 15%;
+}
+
+#role {
+    display: inline-block;
+    border-radius: 10px;
+    width: 20%;
+    height: 40px;
+    border: none;
+    margin: 0;
     padding-left: 8px;
     outline: none;
 }
 
 #bdate {
     border-radius: 10px;
-    width: 25%;
+    width: 20%;
     height: 40px;
     border: none;
     margin: 10px 10% 10px 15%;
@@ -242,7 +261,20 @@ input {
     display: block;
     outline: none;
 }
-
+#spassword {
+    margin-right: 30px;
+}
+#divvvv{
+    border: 2px solid red;
+}
+#showPass{
+    position: absolute;
+    right: 100px;
+    top: 10px;
+    font-size: 1rem;
+    color: #333;
+    pointer-events: none;
+}
 
 #signup2 {
     width: 25%;
